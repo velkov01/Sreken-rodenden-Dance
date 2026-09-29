@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="mk-Latn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#f7efe7">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Za tebe, Nibbles ♡</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='50' font-size='52'%3E%E2%99%A1%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+    <script src="album.js" defer></script>
+  </head>
+  <body>
+    <div class="ambient" aria-hidden="true"><span>♡</span><span>✧</span><span>♡</span><span>✧</span></div>
+    <main>
+      <section class="cover" id="cover" aria-labelledby="cover-title">
+        <p class="eyebrow">EDNA MALA PRIKAZNA ZA NAS</p>
+        <div class="envelope" aria-hidden="true"><div class="letter">za tebe<span>♡</span></div><div class="envelope-front"></div><div class="seal">♡</div></div>
+        <h1 id="cover-title">Za tebe,<br><em>Nibbles.</em></h1>
+        <p class="cover-note">Nekolku spomeni.<br>I mnogu ljubov.</p>
+        <button class="open-button" id="open-album">Otvori go podarokot <span aria-hidden="true">♡</span></button>
+        <p class="handwritten">Sreken rodenden, mila moja.</p>
+      </section>
+
+      <section class="album" id="album" hidden aria-label="Nasata prikazna">
+        <header class="album-header"><span class="brand">za tebe <span aria-hidden="true">♡</span></span><span class="eyebrow">NASATA PRIKAZNA</span></header>
+        <div class="slide-scroll" id="slide-scroll"><article id="slide" tabindex="-1"></article></div>
+        <footer class="album-footer">
+          <div class="progress-track" role="progressbar" aria-label="Stranica" aria-valuemin="1" aria-valuemax="13" aria-valuenow="1" id="progress"><div id="progress-fill"></div></div>
+          <div class="navigation"><button class="nav-button" id="previous" aria-label="Prethodna stranica">←</button><span class="page-count" id="page-count" aria-live="polite" aria-atomic="true">01 <span>/ 13</span></span><button class="nav-button" id="next" aria-label="Sledna stranica">→</button></div>
+          <p class="swipe-hint" id="swipe-hint">Povleci za sledniot spomen <span aria-hidden="true">↔</span></p>
+        </footer>
+      </section>
+    </main>
+    <dialog id="photo-dialog" aria-label="Fotografija"><button id="close-photo" aria-label="Zatvori fotografija">×</button><img id="full-photo" alt=""></dialog>
+    <audio id="music" src="Zdravko Čolić - Tebe čuvam za kraj - (Official Video 2018) - (128 Kbps).mp3" loop preload="none" playsinline></audio>
+    <noscript><p class="no-script">Za da go otvoris albumot, vkluci JavaScript vo prebaruvacot.</p></noscript>
+  </body>
+</html>

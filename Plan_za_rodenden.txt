@@ -1,0 +1,46 @@
+page1:
+Text: "Na 17 Juli prv pat te videh, ne znaejki kolku ke mi se promene cel zivot"
+
+page2:
+Text: "Na 25 Juli ti pisah, ne bese najkreativna porakata mozelo e i podobro ama sepak prv cekor prema nesto najubavo so mi se e slucilo vo zivotot"
+Picture: screenshot_od_razogovor_1
+
+page3: 
+Text: "Uste prvata vecer ka pisaame do 5 uspea da me vooduseves"
+
+page4: "Pocnaame da izlevame i ne mozaah da docekam sekoja vecer da te vidam, ka te pitaah samo cekaah dali ke mi odgovores so slobodna sum"
+Picture: screenshot_od_razgovoro_2
+
+page5: "Od razgovorto so gi vodiime setajki pokraj taa pateka brzo sfatih oti na sekoo grnce imalo i kapace a vo mojot slucaj toa si ti"
+Picture: dojran
+
+page6: 
+Text: "Pa vecerta od 22 prema 23 Avgust tocno na parkingo pod taa crkva te pitah za da bides so mene, duri i iznenadna muzika ima ka potvrdi :D"
+Picture: crkva_dojran
+
+page7:
+Text: "Koga i da se vidaame ne mozah da ti nagledam i prv pat usepah taka da te slikam"
+Picture: slika_Dance_1
+
+page8:
+Text: "Taka dojde i vecerta 6 Septemvri i ovoj moment megju nas"
+Picture: monte_cristo
+
+page9:
+Text: "Nogo pesni ti ispeah, ama taa so ne ja znajah sega ako me biva kako programer treba da ode u pozadina celo vreme :D"
+Pictures: dino, od_ovoj_den,  Zeljko
+
+page10:
+Text: "Prvite sliki od nas, gi gledam sekoj den"
+Pictures: slika_nas_1, slika_nas_2, slika_nas_3
+
+page11:
+Text: "Sega sme taka i zal mi e so ne mozam da te gusnam za da ti cestitam rodenden i mi fales nogo"
+Pictures: slika_nas_4
+
+page12:
+Text: "Sreken rodenden Nibbles, ti posakuvam se najubavo, da si ziva zdrava i sekojpat srekna!!!"
+Picture: happy_birthday
+
+page13:
+Picture: prague
