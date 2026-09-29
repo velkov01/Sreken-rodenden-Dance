@@ -27,11 +27,14 @@ const music = document.getElementById("music");
 const photoDialog = document.getElementById("photo-dialog");
 let current = 0;
 let opened = false;
+let turning = false;
+const stage = document.getElementById("slide-stage");
+const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
-function renderSlide() {
+function renderSlide(focus = true) {
   const data = slides[current];
   slide.replaceChildren();
-  slide.className = `${data.photos ? "" : "text-only"} ${current === slides.length - 1 ? "finale" : ""}`;
+  slide.className = `slide-content ${data.photos ? "" : "text-only"} ${current === slides.length - 1 ? "finale" : ""}`;
   slide.setAttribute("aria-label", `Stranica ${current + 1} od ${slides.length}`);
   if (data.chapter) {
     const chapter = document.createElement("p");
@@ -86,10 +89,7 @@ function renderSlide() {
   document.getElementById("progress").setAttribute("aria-valuenow", current + 1);
   document.getElementById("swipe-hint").textContent = current === slides.length - 1 ? "So ljubov, za tebe ♡" : "Povleci za sledniot spomen ↔";
   scrollArea.scrollTop = 0;
-  // Restart the entrance animation without removing the persistent audio element.
-  void slide.offsetWidth;
-  slide.classList.add("enter");
-  slide.focus({ preventScroll: true });
+  if (focus) slide.focus({ preventScroll: true });
   // Warm the next slide's images, including on slower phone connections.
   for (const [file] of slides[current + 1]?.photos || []) {
     const image = new Image();
@@ -97,11 +97,53 @@ function renderSlide() {
   }
 }
 
-function move(direction) {
-  const target = current + direction;
-  if (target < 0 || target >= slides.length) return;
+async function turnTo(target, direction) {
+  if (turning || target === current || target < 0 || target >= slides.length) return;
+  if (reducedMotion.matches || !scrollArea.animate) {
+    current = target;
+    renderSlide();
+    return;
+  }
+  turning = true;
+  // Keep the current page at its scroll position while the next one unfolds.
+  const departing = scrollArea.cloneNode(true);
+  departing.removeAttribute("id");
+  departing.querySelectorAll("[id]").forEach(element => element.removeAttribute("id"));
+  departing.classList.add("page-departing");
+  departing.setAttribute("aria-hidden", "true");
+  departing.inert = true;
+  stage.append(departing);
+  departing.scrollTop = scrollArea.scrollTop;
   current = target;
-  renderSlide();
+  renderSlide(false);
+  scrollArea.inert = true;
+  stage.classList.add("is-turning");
+  const timing = { duration: 650, easing: "cubic-bezier(.22,1,.36,1)", fill: "both" };
+  const outgoing = departing.animate([
+    { opacity: 1, transform: "translateX(0) rotateY(0deg)" },
+    { opacity: 0, transform: `translateX(${-direction * 28}px) rotateY(${-direction * 7}deg)` }
+  ], timing);
+  const incoming = scrollArea.animate([
+    { opacity: 0, transform: `translateX(${direction * 28}px) rotateY(${direction * 7}deg)` },
+    { opacity: 1, transform: "translateX(0) rotateY(0deg)" }
+  ], timing);
+  try {
+    await Promise.all([outgoing.finished, incoming.finished]);
+  } catch {
+    // A cancelled animation should still leave the new page usable.
+  } finally {
+    outgoing.cancel();
+    incoming.cancel();
+    departing.remove();
+    scrollArea.inert = false;
+    stage.classList.remove("is-turning");
+    turning = false;
+    slide.focus({ preventScroll: true });
+  }
+}
+
+function move(direction) {
+  turnTo(current + direction, direction);
 }
 
 document.getElementById("open-album").addEventListener("click", () => {
@@ -115,7 +157,7 @@ document.getElementById("open-album").addEventListener("click", () => {
 });
 previous.addEventListener("click", () => move(-1));
 next.addEventListener("click", () => {
-  if (current === slides.length - 1) { current = 0; renderSlide(); }
+  if (current === slides.length - 1) turnTo(0, 1);
   else move(1);
 });
 document.addEventListener("keydown", (event) => {
@@ -126,7 +168,7 @@ document.addEventListener("keydown", (event) => {
 
 let touchStart = null;
 scrollArea.addEventListener("touchstart", (event) => {
-  touchStart = event.touches.length === 1 ? { x: event.touches[0].clientX, y: event.touches[0].clientY } : null;
+  touchStart = !turning && event.touches.length === 1 ? { x: event.touches[0].clientX, y: event.touches[0].clientY } : null;
 }, { passive: true });
 scrollArea.addEventListener("touchmove", (event) => {
   if (event.touches.length !== 1) touchStart = null;

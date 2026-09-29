@@ -6,7 +6,7 @@ A phone-first birthday album with all 13 slides from `Plan_za_rodenden.txt`. No 
 
 The album uses **`Zdravko Čolić - Tebe čuvam za kraj - (Official Video 2018) - (128 Kbps).mp3`** beside `index.html`. Keep this filename when uploading, or update the audio `src` in `index.html` if you rename it.
 
-Her first tap on **Otvori go podarokot** opens the album and starts the song. It loops across all slides and when replaying the album. iOS may suspend audio when Safari is in the background or the phone is locked; a website cannot guarantee playback in those circumstances.
+Her first tap on **Vidi ja cestitkata** opens the album and starts the song. It loops across all slides and when replaying the album. iOS may suspend audio when Safari is in the background or the phone is locked; a website cannot guarantee playback in those circumstances.
 
 ## Preview
 
