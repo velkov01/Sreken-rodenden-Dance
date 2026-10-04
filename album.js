@@ -9,12 +9,14 @@ const slides = [
   { chapter: "Pokraj Dojran", text: "Od razgovorto so gi vodiime setajki pokraj taa pateka brzo sfatih oti na sekoo grnce imalo i kapace a vo mojot slucaj toa si ti", photos: [["dojran.avif", "Dojran, pokraj nasata pateka"]] },
   { chapter: "22 — 23 Avgust · Nie", text: "Pa vecerta od 22 prema 23 Avgust tocno na parkingo pod taa crkva te pitah za da bides so mene, duri i iznenadna muzika ima ka potvrdi :D", photos: [["dojran_crkva.jpg", "Crkvata vo Dojran"]] },
   { chapter: "Samo ti", text: "Koga i da se vidaame ne mozah da ti nagledam i prv pat usepah taka da te slikam", photos: [["slika_Dance_1.jpg", "Prvata fotografija od tebe"]] },
-  { chapter: "6 Septemvri", text: "Taka dojde i vecerta 6 Septemvri i ovoj moment megju nas", photos: [["monte_cristo.png", "Nas moment vo Monte Cristo"]] },
+  { chapter: "6 Septemvri", text: "Taka dojde i vecerta 6 Septemvri i ovoj Moment, preostanatoto go znaes", photos: [["monte_cristo.png", "Nas moment vo Monte Cristo"]] },
   { chapter: "Tebe cuvam za kraj", text: "Nogo pesni ti ispeah, ama taa so ne ja znajah sega ako me biva kako programer treba da ode u pozadina celo vreme :D", photos: [["dino.jpg", "Dino"], ["od_ovoj_den.jpg", "Od ovoj den"], ["zeljko.jpg", "Zeljko"]] },
+  { chapter: "Nasite kino sali", text: "Vo naste kino sali izgledaame i filmove zaedno i po nekoj crtan", photos: [["ranjeni_orao.jpg", "Ranjeni orao"], ["lepa_sela.jpg", "Lepa sela"], ["dear_john.jpg", "Dear John"], ["tom_and_jerry.jpg", "Tom and Jerry"]] },
+  { chapter: "Uste mnogu momenti", text: "I uste nogo ke izgledame zaedno gusneni, uzivajki vo momentite", photos: [["cozy.jpg", "Zaedno gusneni"], ["heat.jpg", "Heat"], ["godfather.jpg", "The Godfather"], ["12_angry_men.jpg", "12 Angry Men"]] },
   { chapter: "Nasite spomeni", text: "Prvite sliki od nas, gi gledam sekoj den", photos: [["slika_nas_1.jpg", "Nasata prva zaednicka slika"], ["slika_nas_2.jpg", "Uste eden nas spomen"], ["slika_nas_3.jpg", "Nie dvajca"]] },
   { chapter: "Mi fales", text: "Sega sme taka i zal mi e so ne mozam da te gusnam za da ti cestitam rodenden i mi fales nogo", photos: [["slika_nas_4.png", "Zaedno i koga sme daleku"]] },
   { chapter: "Sreken rodenden ♡", text: "Sreken rodenden Nibbles, ti posakuvam se najubavo, da si ziva zdrava i sekojpat srekna!!!", photos: [["happy_birthday.png", "Sreken rodenden, Nibbles!"]] },
-  { photos: [["prague.jpg", "Praga"]] }
+  { photos: [["prague.jpg", "Praga"], ["moscow.jpeg", "Moskva"]] }
 ];
 
 const cover = document.getElementById("cover");
@@ -87,6 +89,7 @@ function renderSlide(focus = true) {
   document.getElementById("page-count").innerHTML = `${String(current + 1).padStart(2, "0")} <span>/ ${slides.length}</span>`;
   document.getElementById("progress-fill").style.width = `${(current + 1) / slides.length * 100}%`;
   document.getElementById("progress").setAttribute("aria-valuenow", current + 1);
+  document.getElementById("progress").setAttribute("aria-valuemax", slides.length);
   document.getElementById("swipe-hint").textContent = current === slides.length - 1 ? "So ljubov, za tebe ♡" : "Povleci za sledniot spomen ↔";
   scrollArea.scrollTop = 0;
   if (focus) slide.focus({ preventScroll: true });

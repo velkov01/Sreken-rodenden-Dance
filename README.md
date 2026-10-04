@@ -1,6 +1,6 @@
 # Za tebe, Nibbles ♡
 
-A phone-first birthday album with all 13 slides from `Plan_za_rodenden.txt`. No build step, dependencies, or external services are needed.
+A phone-first birthday album with all 15 slides from `Plan_za_rodenden.txt`. No build step, dependencies, or external services are needed.
 
 ## Music
 
@@ -26,6 +26,6 @@ All asset paths are relative so this works under a repository URL. GitHub Pages 
 
 ## Edit the album
 
-The `slides` array in `album.js` contains the text and photo filenames in order. The existing text is preserved as written in the plan. The filename variations for the second chat screenshot and Dojran church are mapped to the actual files. The last slide contains the Prague photo without an added story message.
+The `slides` array in `album.js` contains the text and photo filenames in order. The existing text is preserved as written in the plan. The filename variations for the second chat screenshot and Dojran church are mapped to the actual files. The last slide contains the Prague and Moscow photos without an added story message. Pages follow the order in the plan, whose page numbers include duplicates.
 
 Swipe left/right or use the arrows to turn pages. Longer slides scroll vertically to show every photo. Tap photos for a full-screen view; close with × or Escape. Desktop arrow keys also work. The final arrow replays the album without restarting the music.

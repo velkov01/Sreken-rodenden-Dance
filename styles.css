@@ -48,7 +48,7 @@ h1 em{color:var(--rose);font-weight:400}
 .photo-hint{font:10px/1.5 Arial,sans-serif;color:var(--muted);letter-spacing:.5px;margin:15px 0 0}
 .finale .gallery{margin-top:0}.finale .photo{transform:rotate(-1deg)}.finale .photo img{max-height:62svh}
 .album-footer{flex-shrink:0;padding:12px 0 max(15px,env(safe-area-inset-bottom));background:var(--paper)}
-.progress-track{height:2px;background:var(--line);margin:0 0 13px;overflow:hidden}#progress-fill{height:100%;background:var(--rose);width:7.692%;transition:width .4s}
+.progress-track{height:2px;background:var(--line);margin:0 0 13px;overflow:hidden}#progress-fill{height:100%;background:var(--rose);width:6.667%;transition:width .4s}
 .navigation{display:flex;justify-content:space-between;align-items:center}
 .nav-button{height:46px;width:46px;border:1px solid var(--line);border-radius:50%;background:transparent;font-family:Arial,sans-serif;font-size:22px;transition:background .2s}
 .nav-button:hover:not(:disabled){background:#edddd5}.nav-button:disabled{opacity:.25;cursor:default}

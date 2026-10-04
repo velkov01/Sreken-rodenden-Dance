@@ -9,7 +9,7 @@ page3:
 Text: "Uste prvata vecer ka pisaame do 5 uspea da me vooduseves"
 
 page4: "Pocnaame da izlevame i ne mozaah da docekam sekoja vecer da te vidam, ka te pitaah samo cekaah dali ke mi odgovores so slobodna sum"
-Picture: screenshot_od_razgovoro_2
+Picture: screenshot_razgovoro_3
 
 page5: "Od razgovorto so gi vodiime setajki pokraj taa pateka brzo sfatih oti na sekoo grnce imalo i kapace a vo mojot slucaj toa si ti"
 Picture: dojran
@@ -23,7 +23,7 @@ Text: "Koga i da se vidaame ne mozah da ti nagledam i prv pat usepah taka da te 
 Picture: slika_Dance_1
 
 page8:
-Text: "Taka dojde i vecerta 6 Septemvri i ovoj moment megju nas"
+Text: "Taka dojde i vecerta 6 Septemvri i ovoj Moment, preostanatoto go znaes"
 Picture: monte_cristo
 
 page9:
@@ -31,6 +31,14 @@ Text: "Nogo pesni ti ispeah, ama taa so ne ja znajah sega ako me biva kako progr
 Pictures: dino, od_ovoj_den,  Zeljko
 
 page10:
+Text: "Vo naste kino sali izgledaame i filmove zaedno i po nekoj crtan"
+Pictures: ranjeni_orao, lepa_sela, dear_john, tom_and_jerry
+
+page11:
+Text: "I uste nogo ke izgledame zaedno gusneni, uzivajki vo momentite"
+Pictures: cozy, heat, godfather, 12_angry_men
+
+page12:
 Text: "Prvite sliki od nas, gi gledam sekoj den"
 Pictures: slika_nas_1, slika_nas_2, slika_nas_3
 
@@ -43,4 +51,4 @@ Text: "Sreken rodenden Nibbles, ti posakuvam se najubavo, da si ziva zdrava i se
 Picture: happy_birthday
 
 page13:
-Picture: prague
+Picture: prague, moscow
