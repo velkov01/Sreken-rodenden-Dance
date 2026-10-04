@@ -47,8 +47,8 @@ Text: "Sega sme taka i zal mi e so ne mozam da te gusnam za da ti cestitam roden
 Pictures: slika_nas_4
 
 page14:
-Text: "Sreken rodenden Nibbles, ti posakuvam se najubavo, da si ziva zdrava i sekojpat srekna!!!"
+Text: "Sreken rodenden Nibbles, ti posakuvam se najubavo, da si ziva zdrava i najsrekna!!!"
 Picture: happy_birthday
 
 page15:
-Picture: prague, moscow
+Picture: moscow, prague

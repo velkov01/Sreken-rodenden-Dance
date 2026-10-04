@@ -15,8 +15,8 @@ const slides = [
   { chapter: "Uste mnogu momenti", text: "I uste nogo ke izgledame zaedno gusneni, uzivajki vo momentite", photos: [["cozy.jpg", "Zaedno gusneni"], ["heat.jpg", "Heat"], ["godfather.jpg", "The Godfather"], ["12_angry_men.jpg", "12 Angry Men"]] },
   { chapter: "Nasite spomeni", text: "Prvite sliki od nas, gi gledam sekoj den", photos: [["slika_nas_1.jpg", "Nasata prva zaednicka slika"], ["slika_nas_2.jpg", "Uste eden nas spomen"], ["slika_nas_3.jpg", "Nie dvajca"]] },
   { chapter: "Mi fales", text: "Sega sme taka i zal mi e so ne mozam da te gusnam za da ti cestitam rodenden i mi fales nogo", photos: [["slika_nas_4.png", "Zaedno i koga sme daleku"]] },
-  { chapter: "Sreken rodenden ♡", text: "Sreken rodenden Nibbles, ti posakuvam se najubavo, da si ziva zdrava i sekojpat srekna!!!", photos: [["happy_birthday.png", "Sreken rodenden, Nibbles!"]] },
-  { photos: [["prague.jpg", "Praga"], ["moscow.jpeg", "Moskva"]] }
+  { chapter: "Sreken rodenden ♡", text: "Sreken rodenden Nibbles, ti posakuvam se najubavo, da si ziva zdrava i najsrekna!!!", photos: [["happy_birthday.png", "Sreken rodenden, Nibbles!"]] },
+  { photos: [["moscow.jpeg", "Moskva"], ["prague.jpg", "Praga"]] }
 ];
 
 const cover = document.getElementById("cover");
