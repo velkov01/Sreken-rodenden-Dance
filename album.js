@@ -9,7 +9,7 @@ const slides = [
   { chapter: "Pokraj Dojran", text: "Od razgovorto so gi vodiime setajki pokraj taa pateka brzo sfatih oti na sekoo grnce imalo i kapace a vo mojot slucaj toa si ti", photos: [["dojran.avif", "Dojran, pokraj nasata pateka"]] },
   { chapter: "22 — 23 Avgust · Nie", text: "Pa vecerta od 22 prema 23 Avgust tocno na parkingo pod taa crkva te pitah za da bides so mene, duri i iznenadna muzika ima ka potvrdi :D", photos: [["dojran_crkva.jpg", "Crkvata vo Dojran"]] },
   { chapter: "Samo ti", text: "Koga i da se vidaame ne mozah da ti nagledam i prv pat usepah taka da te slikam", photos: [["slika_Dance_1.jpg", "Prvata fotografija od tebe"]] },
-  { chapter: "6 Septemvri", text: "Taka dojde i vecerta 6 Septemvri i ovoj Moment, preostanatoto go znaes", photos: [["monte_cristo.png", "Nas moment vo Monte Cristo"]] },
+  { chapter: "6 Septemvri", text: "Taka dojde i vecerta 6 Septemvri i ovoj moment, preostanatoto go znaes", photos: [["monte_cristo.png", "Nas moment vo Monte Cristo"]] },
   { chapter: "Tebe cuvam za kraj", text: "Nogo pesni ti ispeah, ama taa so ne ja znajah sega ako me biva kako programer treba da ode u pozadina celo vreme :D", photos: [["dino.jpg", "Dino"], ["od_ovoj_den.jpg", "Od ovoj den"], ["zeljko.jpg", "Zeljko"]] },
   { chapter: "Nasite kino sali", text: "Vo naste kino sali izgledaame i filmove zaedno i po nekoj crtan", photos: [["ranjeni_orao.jpg", "Ranjeni orao"], ["lepa_sela.jpg", "Lepa sela"], ["dear_john.jpg", "Dear John"], ["tom_and_jerry.jpg", "Tom and Jerry"]] },
   { chapter: "Uste mnogu momenti", text: "I uste nogo ke izgledame zaedno gusneni, uzivajki vo momentite", photos: [["cozy.jpg", "Zaedno gusneni"], ["heat.jpg", "Heat"], ["godfather.jpg", "The Godfather"], ["12_angry_men.jpg", "12 Angry Men"]] },
