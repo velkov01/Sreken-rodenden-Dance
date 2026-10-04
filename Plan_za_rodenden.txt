@@ -11,7 +11,7 @@ Text: "Uste prvata vecer ka pisaame do 5 uspea da me vooduseves"
 page4: "Pocnaame da izlevame i ne mozaah da docekam sekoja vecer da te vidam, ka te pitaah samo cekaah dali ke mi odgovores so slobodna sum"
 Picture: screenshot_razgovoro_3
 
-page5: "Od razgovorto so gi vodiime setajki pokraj taa pateka brzo sfatih oti na sekoo grnce imalo i kapace a vo mojot slucaj toa si ti"
+page5: "Od razgovorto so gi vodiime setajki pokraj taa pateka brzo sfatih oti na sekoo grnce imalo i kapace a vo mojot slucaj toa ste vie gospogjice Dance Donceva"
 Picture: dojran
 
 page6: 

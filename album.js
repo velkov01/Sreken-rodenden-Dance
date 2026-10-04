@@ -6,7 +6,7 @@ const slides = [
   { chapter: "25 Juli · Prvata poraka", text: "Na 25 Juli ti pisah, ne bese najkreativna porakata mozelo e i podobro ama sepak prv cekor prema nesto najubavo so mi se e slucilo vo zivotot", photos: [["screenshot_od_razogovor_1.jpg", "Nasata prva poraka"]] },
   { chapter: "Do 5 nautro", text: "Uste prvata vecer ka pisaame do 5 uspea da me vooduseves" },
   { chapter: "Sekoja sledna vecer", text: "Pocnaame da izlevame i ne mozaah da docekam sekoja vecer da te vidam, ka te pitaah samo cekaah dali ke mi odgovores so slobodna sum", photos: [["screenshot_razgovor_3.png", "Nasite dogovori za gledanje"]] },
-  { chapter: "Pokraj Dojran", text: "Od razgovorto so gi vodiime setajki pokraj taa pateka brzo sfatih oti na sekoo grnce imalo i kapace a vo mojot slucaj toa si ti", photos: [["dojran.avif", "Dojran, pokraj nasata pateka"]] },
+  { chapter: "Pokraj Dojran", text: "Od razgovorto so gi vodiime setajki pokraj taa pateka brzo sfatih oti na sekoo grnce imalo i kapace a vo mojot slucaj toa ste vie gospogjice Dance Donceva", photos: [["dojran.avif", "Dojran, pokraj nasata pateka"]] },
   { chapter: "22 — 23 Avgust · Nie", text: "Pa vecerta od 22 prema 23 Avgust tocno na parkingo pod taa crkva te pitah za da bides so mene, duri i iznenadna muzika ima ka potvrdi :D", photos: [["dojran_crkva.jpg", "Crkvata vo Dojran"]] },
   { chapter: "Samo ti", text: "Koga i da se vidaame ne mozah da ti nagledam i prv pat usepah taka da te slikam", photos: [["slika_Dance_1.jpg", "Prvata fotografija od tebe"]] },
   { chapter: "6 Septemvri", text: "Taka dojde i vecerta 6 Septemvri i ovoj moment, preostanatoto go znaes", photos: [["monte_cristo.png", "Nas moment vo Monte Cristo"]] },
