@@ -35,7 +35,8 @@ h1 em{color:var(--rose);font-weight:400}
 .page-departing{position:absolute;inset:0;pointer-events:none;z-index:1;scrollbar-width:none}
 .slide-stage.is-turning .slide-scroll{will-change:transform,opacity;pointer-events:none}
 .chapter{font:10px/1.4 Arial,sans-serif;letter-spacing:2.5px;text-transform:uppercase;color:var(--rose);margin:0 0 18px}
-.slide-text{font-size:clamp(21px,5.8vw,27px);line-height:1.45;font-weight:400;letter-spacing:-.4px;margin:0;max-width:440px;text-wrap:pretty}
+.slide-text{font-size:clamp(21px,5.8vw,27px);line-height:1.45;font-weight:400;letter-spacing:-.4px;margin:0;max-width:440px;text-wrap:pretty;white-space:pre-line}
+.slide-text-after{margin-top:27px}
 .text-only .slide-text{font-size:clamp(29px,8vw,39px);line-height:1.4}
 .ornament{color:var(--rose);font-size:34px;margin:30px 0}.text-only .ornament{margin:32px 0}
 .gallery{display:grid;gap:22px;width:100%;margin-top:27px;padding:0 6px 8px}
@@ -46,7 +47,7 @@ h1 em{color:var(--rose);font-weight:400}
 .gallery.multiple{gap:25px}.gallery.multiple .photo{width:88%;justify-self:start}.gallery.multiple .photo:nth-child(even){justify-self:end}
 .gallery.multiple img{max-height:35svh}
 .photo-hint{font:10px/1.5 Arial,sans-serif;color:var(--muted);letter-spacing:.5px;margin:15px 0 0}
-.finale .gallery{margin-top:0}.finale .photo{transform:rotate(-1deg)}.finale .photo img{max-height:62svh}
+.finale .photo{transform:rotate(-1deg)}.finale .photo img{max-height:62svh}
 .album-footer{flex-shrink:0;padding:12px 0 max(15px,env(safe-area-inset-bottom));background:var(--paper)}
 .progress-track{height:2px;background:var(--line);margin:0 0 13px;overflow:hidden}#progress-fill{height:100%;background:var(--rose);width:6.667%;transition:width .4s}
 .navigation{display:flex;justify-content:space-between;align-items:center}

@@ -2,21 +2,21 @@
 
 // Text follows Plan_za_rodenden.txt. Paths match the actual files in pictures/.
 const slides = [
-  { chapter: "17 Juli · Pocetokot", text: "Na 17 Juli prv pat te videh, ne znaejki kolku ke mi se promene cel zivot" },
-  { chapter: "25 Juli · Prvata poraka", text: "Na 25 Juli ti pisah, ne bese najkreativna porakata mozelo e i podobro ama sepak prv cekor prema nesto najubavo so mi se e slucilo vo zivotot", photos: [["screenshot_od_razogovor_1.jpg", "Nasata prva poraka"]] },
-  { chapter: "Do 5 nautro", text: "Uste prvata vecer ka pisaame do 5 uspea da me vooduseves" },
-  { chapter: "Sekoja sledna vecer", text: "Pocnaame da izlevame i ne mozaah da docekam sekoja vecer da te vidam, ka te pitaah samo cekaah dali ke mi odgovores so slobodna sum", photos: [["screenshot_razgovor_3.png", "Nasite dogovori za gledanje"]] },
-  { chapter: "Pokraj Dojran", text: "Od razgovorto so gi vodiime setajki pokraj taa pateka brzo sfatih oti na sekoo grnce imalo i kapace a vo mojot slucaj toa ste vie gospogjice Dance Donceva", photos: [["dojran.avif", "Dojran, pokraj nasata pateka"]] },
-  { chapter: "22 — 23 Avgust · Nie", text: "Pa vecerta od 22 prema 23 Avgust tocno na parkingo pod taa crkva te pitah za da bides so mene, duri i iznenadna muzika ima ka potvrdi :D", photos: [["dojran_crkva.jpg", "Crkvata vo Dojran"]] },
-  { chapter: "Samo ti", text: "Koga i da se vidaame ne mozah da ti nagledam i prv pat usepah taka da te slikam", photos: [["slika_Dance_1.jpg", "Prvata fotografija od tebe"]] },
-  { chapter: "6 Septemvri", text: "Taka dojde i vecerta 6 Septemvri i ovoj moment, preostanatoto go znaes", photos: [["monte_cristo.png", "Nas moment vo Monte Cristo"]] },
-  { chapter: "Tebe cuvam za kraj", text: "Nogo pesni ti ispeah, ama taa so ne ja znajah sega ako me biva kako programer treba da ode u pozadina celo vreme :D", photos: [["dino.jpg", "Dino"], ["od_ovoj_den.jpg", "Od ovoj den"], ["zeljko.jpg", "Zeljko"]] },
+  { chapter: "17 Juli · Pocetokot", text: "Na 17 Juli prv pat te videh, ne znaejki kolku ke mi se promene cel zivot", photos: [["jerry.jpg", "Jerry"]] },
+  { chapter: "25 Juli · Prvata poraka", text: "Na 25 Juli ti pisah, ne bese najkreativna porakata ama sepak prv cekor prema nesto najubavo so mi se e slucilo vo zivotot", photos: [["screenshot_od_razogovor_1.jpg", "Nasata prva poraka"]] },
+  { chapter: "Do 5 nautro", text: "Uste prvata vecer ka pisaame do 5 uspea da me vooduseves, tolku lesno kako da se znaeme od sekojpat. Se ponatamu so tebe e samo kako od son", photos: [["slika_nas_4.jpg", "Uste eden nas zaednicki spomen"]] },
+  { chapter: "Sekoja sledna vecer", text: 'Pocnaame da izlevame i ne mozaah da docekam sekoja vecer da te vidam, ka te pitaah nestrplivo go cekaah tvojo odgovor. I samo edno "slobodna sum" mi bese dovolno da se raduvam kako malenko dete', photos: [["screenshot_razgovor_3.png", "Nasite dogovori za gledanje"]], afterText: "Ne ni sfatih kolku brzo mi stana najubavio del od denot" },
+  { chapter: "Pokraj Dojran", text: "Od razgovorite so gi vodaame setajki i sedejki pokraj taa pateka, mnogu brzo sfatih oti na sekoo grnce mu se naogja i kapace... a vo mojot slucaj toa ste vie gospogjice Dončeva", photos: [["dojran.avif", "Dojran, pokraj nasata pateka"]] },
+  { chapter: "22 — 23 Avgust · Nie", text: "Pa vecerta od 22 prema 23 Avgust tocno na parkingo pod taa crkva te pitah da mi bides devojka. Kako da ne bese dovolno so srceto ke mi izlezese od sreka oti prifati, iznenadno pocna i muzika, kako i ona da sakase da mi potvrde oti taa e nasta vecer", photos: [["dojran_crkva.jpg", "Crkvata vo Dojran"]] },
+  { chapter: "Samo ti", text: "Koga i da se vidaame, nikogas ne mozah da ti nagledam, i samo se cudaah kako moze da si tolku sovrsena. Taa mi prva slika od tebe i gledana mi nogo pati iako na nea se kries", photos: [["slika_Dance_1.jpg", "Prvata fotografija od tebe"]] },
+  { chapter: "6 Septemvri", text: "Taka dojde i vecerta 6 Septemvri i ovoj moment, a preostanatoto go znaes", photos: [["monte_cristo.png", "Nas moment vo Monte Cristo"]] },
+  { chapter: "Tebe cuvam za kraj", text: "Nogo pesni ti ispeah, ama taa bas ne ja znajah, a najnogo odgovara na toa sto go cuvstvuvam sprema tebe - treba da vrte vo pozadina celo vreme ako me biva kak programer :D", photos: [["dino.jpg", "Dino"], ["od_ovoj_den.jpg", "Od ovoj den"], ["zeljko.jpg", "Zeljko"]] },
   { chapter: "Nasite kino sali", text: "Vo naste kino sali izgledaame i filmove zaedno i po nekoj crtan", photos: [["ranjeni_orao.jpg", "Ranjeni orao"], ["lepa_sela.jpg", "Lepa sela"], ["dear_john.jpg", "Dear John"], ["tom_and_jerry.jpg", "Tom and Jerry"]] },
   { chapter: "Uste mnogu momenti", text: "I uste nogo ke izgledame zaedno gusneni, uzivajki vo momentite", photos: [["cozy.jpg", "Zaedno gusneni"], ["heat.jpg", "Heat"], ["godfather.jpg", "The Godfather"], ["12_angry_men.jpg", "12 Angry Men"]] },
-  { chapter: "Nasite spomeni", text: "Prvite sliki od nas, gi gledam sekoj den", photos: [["slika_nas_1.jpg", "Nasata prva zaednicka slika"], ["slika_nas_2.jpg", "Uste eden nas spomen"], ["slika_nas_3.jpg", "Nie dvajca"]] },
-  { chapter: "Mi fales", text: "Sega sme taka i zal mi e so ne mozam da te gusnam za da ti cestitam rodenden i mi fales nogo", photos: [["slika_nas_4.png", "Zaedno i koga sme daleku"]] },
-  { chapter: "Sreken rodenden ♡", text: "Sreken rodenden Nibbles, ti posakuvam se najubavo, da si ziva zdrava i najsrekna!!!", photos: [["happy_birthday.png", "Sreken rodenden, Nibbles!"]] },
-  { photos: [["moscow.jpeg", "Moskva"], ["prague.jpg", "Praga"]] }
+  { chapter: "Nasite spomeni", text: "Prvite sliki od nas, gi gledam sekoj den. Mi go razubavuvat deno, i samo se smeam i zamisluvam kolku ke bide ubavo slednite ka ke gi pravame", photos: [["slika_nas_1.jpg", "Nasata prva zaednicka slika"], ["slika_nas_2.jpg", "Uste eden nas spomen"], ["slika_nas_3.jpg", "Nie dvajca"]] },
+  { chapter: "Mi fales", text: "Sega sme taka i uzivam i taka vo sekoja minuta pominata so tebe samo mi e zal so ne mozam da te gusnam za da ti cestitam rodenden. Mi fales nogo", photos: [["slika_nas_4.png", "Zaedno i koga sme daleku"]] },
+  { chapter: "Sreken rodenden ♡", text: "Sreken rodenden Nibbles, ti posakuvam se najubavo, da si ziva, zdrava i najsrekna!!!", photos: [["happy_birthday.png", "Sreken rodenden, Nibbles!"]] },
+  { text: "Ke te cuvam  kako kapka voda na dlanka!\nZaedno ke izgrademe preubavi spomene", photos: [["moscow.jpeg", "Moskva"], ["prague.jpg", "Praga"]] }
 ];
 
 const cover = document.getElementById("cover");
@@ -82,6 +82,12 @@ function renderSlide(focus = true) {
     hint.className = "photo-hint";
     hint.textContent = "Dopri ja slikata za da ja vidis odblisku";
     slide.append(hint);
+  }
+  if (data.afterText) {
+    const text = document.createElement("p");
+    text.className = "slide-text slide-text-after";
+    text.textContent = data.afterText;
+    slide.append(text);
   }
   previous.disabled = current === 0;
   next.textContent = current === slides.length - 1 ? "↺" : "→";

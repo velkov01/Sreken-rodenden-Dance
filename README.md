@@ -26,6 +26,6 @@ All asset paths are relative so this works under a repository URL. GitHub Pages 
 
 ## Edit the album
 
-The `slides` array in `album.js` contains the text and photo filenames in order. The existing text is preserved as written in the plan. The filename variations for the second chat screenshot and Dojran church are mapped to the actual files. The last slide contains the Prague and Moscow photos without an added story message. Pages follow the order in the plan, whose page numbers include duplicates.
+The `slides` array in `album.js` contains the text and photo filenames in order, following all 15 pages in `Plan_za_rodenden.txt`. Slide 4 uses `afterText` for the message below its screenshot. The chat screenshot and Dojran church names in the plan are mapped to the actual files. Slide 3 uses the new `slika_nas_4.jpg` couple photo; slide 13 uses `slika_nas_4.png`, the video call screenshot. The last slide includes the closing message followed by the Moscow and Prague photos.
 
 Swipe left/right or use the arrows to turn pages. Longer slides scroll vertically to show every photo. Tap photos for a full-screen view; close with × or Escape. Desktop arrow keys also work. The final arrow replays the album without restarting the music.
