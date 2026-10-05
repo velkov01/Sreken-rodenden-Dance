@@ -1,33 +1,37 @@
 page1:
 Text: "Na 17 Juli prv pat te videh, ne znaejki kolku ke mi se promene cel zivot"
+Picture: jerry
 
 page2:
-Text: "Na 25 Juli ti pisah, ne bese najkreativna porakata mozelo e i podobro ama sepak prv cekor prema nesto najubavo so mi se e slucilo vo zivotot"
+Text: "Na 25 Juli ti pisah, ne bese najkreativna porakata ama sepak prv cekor prema nesto najubavo so mi se e slucilo vo zivotot"
 Picture: screenshot_od_razogovor_1
 
 page3: 
-Text: "Uste prvata vecer ka pisaame do 5 uspea da me vooduseves"
+Text: "Uste prvata vecer ka pisaame do 5 uspea da me vooduseves, tolku lesno kako da se znaeme od sekojpat. Se ponatamu so tebe e samo kako od son"
+Picture: slika_nas_4
 
-page4: "Pocnaame da izlevame i ne mozaah da docekam sekoja vecer da te vidam, ka te pitaah samo cekaah dali ke mi odgovores so slobodna sum"
+page4: 
+Text: "Pocnaame da izlevame i ne mozaah da docekam sekoja vecer da te vidam, ka te pitaah nestrplivo go cekaah tvojo odgovor. I samo edno "slobodna sum" mi bese dovolno da se raduvam kako malenko dete
 Picture: screenshot_razgovoro_3
+Text: Ne ni sfatih kolku brzo mi stana najubavio del od denot
 
-page5: "Od razgovorto so gi vodiime setajki pokraj taa pateka brzo sfatih oti na sekoo grnce imalo i kapace a vo mojot slucaj toa ste vie gospogjice Dance Donceva"
+page5: "Od razgovorite so gi vodaame setajki i sedejki pokraj taa pateka, mnogu brzo sfatih oti na sekoo grnce mu se naogja i kapace... a vo mojot slucaj toa ste vie gospogjice Dončeva"
 Picture: dojran
 
 page6: 
-Text: "Pa vecerta od 22 prema 23 Avgust tocno na parkingo pod taa crkva te pitah za da bides so mene, duri i iznenadna muzika ima ka potvrdi :D"
+Text: "Pa vecerta od 22 prema 23 Avgust tocno na parkingo pod taa crkva te pitah da mi bides devojka. Kako da ne bese dovolno so srceto ke mi izlezese od sreka oti prifati, iznenadno pocna i muzika, kako i ona da sakase da mi potvrde oti taa e nasta vecer"
 Picture: crkva_dojran
 
 page7:
-Text: "Koga i da se vidaame ne mozah da ti nagledam i prv pat usepah taka da te slikam"
+Text: "Koga i da se vidaame, nikogas ne mozah da ti nagledam, i samo se cudaah kako moze da si tolku sovrsena. Taa mi prva slika od tebe i gledana mi nogo pati iako na nea se kries"
 Picture: slika_Dance_1
 
 page8:
-Text: "Taka dojde i vecerta 6 Septemvri i ovoj moment, preostanatoto go znaes"
+Text: "Taka dojde i vecerta 6 Septemvri i ovoj moment, a preostanatoto go znaes"
 Picture: monte_cristo
 
 page9:
-Text: "Nogo pesni ti ispeah, ama taa so ne ja znajah sega ako me biva kako programer treba da ode u pozadina celo vreme :D"
+Text: "Nogo pesni ti ispeah, ama taa bas ne ja znajah, a najnogo odgovara na toa sto go cuvstvuvam sprema tebe - treba da vrte vo pozadina celo vreme ako me biva kak programer :D"
 Pictures: dino, od_ovoj_den,  Zeljko
 
 page10:
@@ -39,16 +43,19 @@ Text: "I uste nogo ke izgledame zaedno gusneni, uzivajki vo momentite"
 Pictures: cozy, heat, godfather, 12_angry_men
 
 page12:
-Text: "Prvite sliki od nas, gi gledam sekoj den"
+Text: "Prvite sliki od nas, gi gledam sekoj den. Mi go razubavuvat deno, i samo se smeam i zamisluvam kolku ke bide ubavo slednite ka ke gi pravame"
 Pictures: slika_nas_1, slika_nas_2, slika_nas_3
 
 page13:
-Text: "Sega sme taka i zal mi e so ne mozam da te gusnam za da ti cestitam rodenden i mi fales nogo"
+Text: "Sega sme taka i uzivam i taka vo sekoja minuta pominata so tebe samo mi e zal so ne mozam da te gusnam za da ti cestitam rodenden. Mi fales nogo"
 Pictures: slika_nas_4
 
 page14:
-Text: "Sreken rodenden Nibbles, ti posakuvam se najubavo, da si ziva zdrava i najsrekna!!!"
+Text: "Sreken rodenden Nibbles, ti posakuvam se najubavo, da si ziva, zdrava i najsrekna!!!"
 Picture: happy_birthday
 
 page15:
+Text: Ke te cuvam  kako kapka voda na dlanka! 
+Zaedno ke izgrademe preubavi spomene
+
 Picture: moscow, prague
